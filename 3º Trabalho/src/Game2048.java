@@ -13,9 +13,10 @@ public class Game2048 {
     private static final int[][] grid = new int[LINES][COLS];
     private static final boolean[][] addedGrid = new boolean[LINES][COLS];
     public static String name;
+    
+    
+    
     public static void main(String[] args) {
-
-
         Panel.open();
         init();
         System.out.println(top.rows);
